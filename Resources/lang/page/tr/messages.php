@@ -10,5 +10,6 @@ return [
     'title is required' => 'Başlık doldurulmalı.',
     'body is required' => 'İçerik doldurulmalı.',
     'only one homepage allowed' => 'Sadece bir anasayfa oluşturulabilir',
-    'is_home' => 'Anasayfa Silinemez'
+    'is_home' => 'Anasayfa Silinemez',
+    'return homepage' => 'Anasayfaya geri dön'
 ];

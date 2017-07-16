@@ -10,5 +10,6 @@ return [
     'title is required' => 'The title is required.',
     'body is required' => 'The body is required.',
     'only one homepage allowed' => 'Only one homepage is allowed',
-    'is_home' => 'Homepage can not delete'
+    'is_home' => 'Homepage can not delete',
+    'return homepage' => 'Return to homepage',
 ];
