@@ -53,16 +53,7 @@ class TranslationController extends AdminBaseController
 
     public function export(TranslationsExporter $exporter)
     {
-//        return response()->make($exporter->export(), 200, [
-//            'Content-Type' => 'application/csv',
-//            'Content-Disposition' => "attachment; filename={$exporter->getFileName()}",
-//            'Pragma' => 'no-cache',
-//        ]);
-        return \Excel::create($exporter->getFileName(), function($excel) use ($exporter) {
-            $excel->sheet($exporter->getFileName(), function($sheet) use ($exporter) {
-               $sheet->fromArray($exporter->formatData(), null);
-            });
-        })->download('csv');
+        return response()->csv($exporter->export(), $exporter->getFileName());
     }
 
     public function import(ImportTranslationsRequest $request, TranslationsImporter $importer)
