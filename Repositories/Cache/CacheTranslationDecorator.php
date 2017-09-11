@@ -109,4 +109,8 @@ class CacheTranslationDecorator extends BaseCacheDecorator implements Translatio
             );
     }
 
+    public function clearCache()
+    {
+        return app('cache')->driver('translations')->flush();
+    }
 }
