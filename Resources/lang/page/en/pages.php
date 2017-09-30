@@ -31,6 +31,9 @@ return [
         'parent_id'            => 'Parent Page',
         'menu'                 => 'Menu',
         'select page'          => 'Select Page',
+        'sub_title'            => 'Subtitle',
+        'icon'                 => 'Icon',
+        'video'                => 'Video',
     ],
     'validation'       => [
         'attributes' => [

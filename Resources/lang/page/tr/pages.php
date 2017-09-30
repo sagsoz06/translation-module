@@ -32,6 +32,9 @@ return [
         'menu'                 => 'Menü',
         'select page'          => 'Sayfa Seç',
         'image'                => 'Resim',
+        'sub_title'            => 'Alt Başlık',
+        'icon'                 => 'İkon',
+        'video'                => 'Video',
     ],
     'validation'       => [
         'attributes' => [
