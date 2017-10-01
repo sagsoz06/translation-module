@@ -34,6 +34,7 @@ return [
         'sub_title'            => 'Subtitle',
         'icon'                 => 'Icon',
         'video'                => 'Video',
+        'cover'                => 'Cover Image',
     ],
     'validation'       => [
         'attributes' => [

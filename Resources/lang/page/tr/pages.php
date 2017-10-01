@@ -35,6 +35,7 @@ return [
         'sub_title'            => 'Alt Başlık',
         'icon'                 => 'İkon',
         'video'                => 'Video',
+        'cover'                => 'Kapak Resmi',
     ],
     'validation'       => [
         'attributes' => [
