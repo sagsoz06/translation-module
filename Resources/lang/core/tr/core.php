@@ -6,6 +6,7 @@ return [
         'confirmation-message' => 'Bu kaydı gerçekten silmek istiyor musunuz?',
     ],
     'table'                 => [
+        'updated at' => 'Güncelleme tarihi',
         'created at' => 'Oluşturulma tarihi',
         'actions'    => 'İşlemler',
         'thumbnail'  => 'Thumbnail',
