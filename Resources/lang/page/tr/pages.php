@@ -1,19 +1,19 @@
 <?php
 
 return [
-    'title'            => [
+    'title'               => [
         'pages'       => 'Sayfalar',
         'create page' => 'Sayfa oluştur',
         'edit page'   => 'Sayfayı düzenle',
     ],
-    'button'           => [
+    'button'              => [
         'create page' => 'Sayfa oluştur',
     ],
-    'table'            => [
+    'table'               => [
         'name' => 'Ad',
         'slug' => 'Slug',
     ],
-    'form'             => [
+    'form'                => [
         'title'                => 'Başlık',
         'slug'                 => 'Slug',
         'meta_data'            => 'Meta Verileri',
@@ -38,7 +38,7 @@ return [
         'cover'                => 'Kapak Resmi',
         'permissions'          => 'Sayfa İzinleri'
     ],
-    'validation'       => [
+    'validation'          => [
         'attributes' => [
             'title'            => 'Başlık',
             'slug'             => 'Url Yolu',
@@ -47,17 +47,18 @@ return [
             'meta_description' => 'Meta Açıklama'
         ],
     ],
-    'facebook-types'   => [
+    'facebook-types'      => [
         'website' => 'Website',
         'product' => 'Ürün',
         'article' => 'Makale',
     ],
-    'navigation'       => [
+    'navigation'          => [
         'back to index' => 'Sayfalara geri dön',
     ],
-    'list resource'    => 'Sayfa Listele',
-    'create resource'  => 'Sayfa Ekle',
-    'edit resource'    => 'Sayfa Düzenle',
-    'destroy resource' => 'Sayfa Sil',
-    'sitemap resource' => 'Sitemap Düzenle',
+    'list resource'       => 'Sayfa Listele',
+    'create resource'     => 'Sayfa Ekle',
+    'edit resource'       => 'Sayfa Düzenle',
+    'destroy resource'    => 'Sayfa Sil',
+    'sitemap resource'    => 'Sitemap Düzenle',
+    'permission resource' => 'Sayfa İzinleri'
 ];

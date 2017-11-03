@@ -1,19 +1,19 @@
 <?php
 
 return [
-    'title'            => [
+    'title'               => [
         'pages'       => 'Pages',
         'create page' => 'Create a page',
         'edit page'   => 'Edit a page',
     ],
-    'button'           => [
+    'button'              => [
         'create page' => 'Create a page',
     ],
-    'table'            => [
+    'table'               => [
         'name' => 'Name',
         'slug' => 'Slug',
     ],
-    'form'             => [
+    'form'                => [
         'title'                => 'Title',
         'slug'                 => 'Slug',
         'meta_data'            => 'Meta data',
@@ -37,7 +37,7 @@ return [
         'cover'                => 'Cover Image',
         'permissions'          => 'Sayfa İzinleri'
     ],
-    'validation'       => [
+    'validation'          => [
         'attributes' => [
             'title'            => 'title',
             'slug'             => 'slug',
@@ -46,16 +46,18 @@ return [
             'meta_description' => 'meta description',
         ],
     ],
-    'facebook-types'   => [
+    'facebook-types'      => [
         'website' => 'Website',
         'product' => 'Product',
         'article' => 'Article',
     ],
-    'navigation'       => [
+    'navigation'          => [
         'back to index' => 'Go back to the pages index',
     ],
-    'list resource'    => 'List pages',
-    'create resource'  => 'Create pages',
-    'edit resource'    => 'Edit pages',
-    'destroy resource' => 'Delete pages',
+    'list resource'       => 'List pages',
+    'create resource'     => 'Create pages',
+    'edit resource'       => 'Edit pages',
+    'destroy resource'    => 'Delete pages',
+    'sitemap resource'    => 'Edit Sitemap',
+    'permission resource' => 'Page Permissions',
 ];
