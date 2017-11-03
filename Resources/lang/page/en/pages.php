@@ -35,6 +35,7 @@ return [
         'icon'                 => 'Icon',
         'video'                => 'Video',
         'cover'                => 'Cover Image',
+        'permissions'          => 'Sayfa İzinleri'
     ],
     'validation'       => [
         'attributes' => [
