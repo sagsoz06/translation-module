@@ -32,11 +32,9 @@ return [
         'menu'                 => 'Menü',
         'select page'          => 'Sayfa Seç',
         'image'                => 'Resim',
-        'sub_title'            => 'Alt Başlık',
-        'icon'                 => 'İkon',
-        'video'                => 'Video',
         'cover'                => 'Kapak Resmi',
-        'permissions'          => 'Sayfa İzinleri'
+        'permissions'          => 'Sayfa İzinleri',
+        'status'               => 'Durum',
     ],
     'validation'          => [
         'attributes' => [

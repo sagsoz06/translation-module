@@ -31,11 +31,9 @@ return [
         'parent_id'            => 'Parent Page',
         'menu'                 => 'Menu',
         'select page'          => 'Select Page',
-        'sub_title'            => 'Subtitle',
-        'icon'                 => 'Icon',
-        'video'                => 'Video',
         'cover'                => 'Cover Image',
-        'permissions'          => 'Sayfa İzinleri'
+        'permissions'          => 'Sayfa İzinleri',
+        'status'               => 'Durum',
     ],
     'validation'          => [
         'attributes' => [
