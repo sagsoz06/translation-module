@@ -34,6 +34,8 @@ return [
         'new password'              => 'Yeni şifre',
         'new password confirmation' => 'Yeni şifre onayı',
         'is activated'              => 'Aktivasyon',
+        'captcha_user'              => 'Doğrulama Kodu',
+        'g-recaptcha-response'      => 'Doğrulama Kodu'
     ],
     'table'                       => [
         'created-at' => 'Oluşturulma tarihi',

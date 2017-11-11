@@ -35,6 +35,8 @@ return [
         'new password'              => 'New password',
         'new password confirmation' => 'New password confirmation',
         'is activated'              => 'Activated',
+        'captcha_user'              => 'Captcha',
+        'g-recaptcha-response'      => 'Captcha'
     ],
     'table'                       => [
         'created-at' => 'Created At',
