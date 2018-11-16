@@ -35,6 +35,7 @@ return [
         'cover'                => 'Kapak Resmi',
         'permissions'          => 'Sayfa İzinleri',
         'status'               => 'Durum',
+        'file'                 => 'Belge',
     ],
     'validation'          => [
         'attributes' => [
