@@ -74,7 +74,7 @@ class TranslationServiceProvider extends ServiceProvider
             return false;
         }
 
-        if (false === env('INSTALLED', false)) {
+        if (false === config('app.installed', false)) {
             return false;
         }
 

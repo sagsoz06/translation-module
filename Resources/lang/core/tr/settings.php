@@ -13,5 +13,6 @@ return [
     'pinterest-verification-code' => 'Pinterest Doğrulama Kodu',
     'yandex-verification-code'    => 'Yandex Doğrulama Kodu',
     'geo-position'                => 'Coğrafi Pozisyon',
-    'google-tag-manager'          => 'Google Tag Manager Kodu'
+    'google-tag-manager'          => 'Google Tag Manager Kodu',
+    'cookie-law'                  => 'Çerez yasası uyarı yazısı'
 ];
