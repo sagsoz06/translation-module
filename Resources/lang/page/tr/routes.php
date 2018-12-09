@@ -3,7 +3,7 @@
 return [
     'homepage' => '/',
     'page'     => [
-        'tag'  => '/etiket/{tag}',
-        'slug' => '/{uri}'
+        'tag'  => 'etiket/{tag}',
+        'slug' => '{uri}'
     ]
 ];
